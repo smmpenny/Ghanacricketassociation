@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ghanacricketassociation_news</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/mycss.css">
+    <style>
+        * {box-sizing: border-box;}
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            overflow: hidden;
+            background-color: #c7d2eb;
+            padding: 0.0px 30px;
+        }
+
+        .header a {
+            float: left;
+            color: rgb(253, 252, 252);
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 22px;
+            border-radius: 100px;
+        }
+
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .header a:hover {
+            background-color: #ddd;
+            color: rgb(250, 248, 248);
+        }
+
+        .header a.active {
+            color: rgb(247, 243, 243);
+        }
+
+        .header-right {
+            float: right;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 15px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 15px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: #c7d2eb;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: #fbfcfd;
+            overflow-x: hidden;
+            transition: 0.1s;
+            padding-top: 100px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            font-size: 15px;
+            color: #818181;
+            display: block;
+            transition: 0.1s;
+        }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            left: 25px;
+            font-size: 36px;
+            margin-right: 50px;
+        }
+
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #f3f7f2;
+            color: rgb(117, 115, 115);
+            padding: 5px 10px;
+            border: none;
+            position: absolute;
+            right: 59;
+        }
+
+        .openbtn:hover {
+            background-color: #444;
+        }
+
+        footer {
+            background-color: rgb(9, 34, 34);
+            color: #f2f2f2;
+            text-align: center;
+            padding: 3px;
+        }
+
+        #main {
+            transition: margin-right .5s;
+            padding: 16px;
+        }
+        
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background-color: #333;
+}
+
+.container {
+  position: relative;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo-white-new.png" width="194" height="65">
+        <div class="header-right">
+          <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div> 
+            </div>
+            <img src="images/logo-green.png" width="194" height="65">
+            <div> 
+              <ul>
+              </div>
+              <a href="ABOUT US.html" style="text-align:left;"><b>About</b></a> 
+              <a href="CONTACT.html" style="text-align:left;"><b>Contact</b></a>
+              <body>
+            <p>
+              <br>
+            <br>
+            <br>
+            <h5 style="text-align:left font-size 100px">&#127757;<i>P. O. Box 1034, Osu – Accra, Ghana</i></h5>
+            <h5 style="text-align:left font-size 100px">&#128222;<i>+233 200 223 5532</i></h5>
+            <h5 style="text-align:left font-size 100px">&#128231;<i>info@ghanacricketassociation.org</i></h5>
+            <a href="https://web.facebook.com/GhanaCricketAssociation/?_rdc=1&_rdr" class="fa fa-facebook fa-lg"></a>
+            <a href="https://www.instagram.com/cricket.ghana/?hl=en" class="fa fa-instagram"></a>
+            <a href="https://x.com/CricketGhana?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter fa-lg"></a>
+          </p>
+        </body>
+          </div>
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ </button>  
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar">
+        <a href="AB_USER INTERFACE.html">HOME</a>
+        <a href="ABOUT US.html">ABOUT US</a>
+        <div class="dropdown">
+            <button class="dropbtn">REGISTRATION<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="REGISTER AS PLAYER.html"><i>PLAYER</i></a>
+                <a href="REGISTER AS COACH.html"><i>COACH</i></a>
+                <a href="REGISTER AS UMPIRE.html"><i>UMPIRE </i></a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">MATCH FIXTURES <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="MATCH TABLE.html"><i>MATCH TABLE</i></a>
+                <a href="MATCH FIXTURES (MEN).html"><i>NATIONAL TEAM (MEN)</i></a>
+                <a href="MATCH FIXTURES (WOMEN).html"><i>NATIONAL TEAM (WOMEN)</i></a>
+                <a href="MATCH FIXTURES (UI9 BOYS).html"><i>U19 (MEN)</i></a>
+                <a href="MATCH FIXTURES (UI9 GIRLS).html"><i>U19 (WOMEN)</i></a>
+            </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">TECHNICAL TEAM <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="BOARD MEMBERS.html"><i>BOARD MEMBERS & OPERATORS</i></a>
+            <a href="COACHES.html"><i>COACHES</i></a>
+            <a href="https://www.icc-cricket.com/about/the-icc/publications/playing-handbook"><i>CRICKET RULES</i></a>
+          </div>
+      </div>
+        <div class="dropdown">
+            <button class="dropbtn">NATIONAL TEAMS & CLUBS <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="NATIONAL TEAM MEN.html"><i>NATIONAL TEAM (MEN)</i></a>
+              <a href="NATIONAL TEAM WOMEN.html"><i>NATIONAL TEAM (WOMEN)</i></a>
+              <a href="U19 MEN.html"><i>U19 (MEN)</i></a>
+              <a href="U19 WOMEN.html"><i>U19 (WOMEN)</i></a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">RANKING<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="RANKING MEN.html"><i>PLAYERS (MEN'S TEAM)</i></a>
+              <a href="RANKING WOMEN.html"><i>PLAYERS (WOMEN'S TEAM)</i></a>
+              <a href="CLUBS RANKING.html"><i>CLUBS</i></a>
+            </div>
+          </div>
+          <a href="GALLERY.html">GALLERY</a>
+      </div>
+  <br>
+  <h2 style="text-align: center; color: #f1f1f1;">Ghana to host all african games 2024</h2>
+
+
+<div class="container">
+  <img src="Images/cricket-620x406-1.jpg"  style="width:100%;">
+  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div class="content">
+    
+    <h1><h2 style="text-align: center;">Cricket could make its debut in the African Games when it is hosted by Ghana in 2023</h2>
+    </h1>
+    <p>it has been reported by The International Cricket Council (ICC) have been in discussions with the Local Organising, according to ESPNcricinfo.</p>
+
+    A delegation, including officials from the ICC, the Ghana Cricket Association and the Ghana Ministry of Sports, has visited the proposed venues to establish whether the country has the facilities to be stage a top-class event.</p>
+      
+      <P>Ghana was awarded the African Games for the first time in October 2018, but an announcement still must be made on which sports will appear</P>
+      
+      <p>The last African Games, in Rabat in 2019, had 26 sports on the programme,
+
+        The majority were Olympic sports due to appear at Tokyo 2020, but medals were awarded in chess and snooker.
+        
+        Since the African Games were first held at Brazzaville in the Congo in 1965 medals have been awarded in a total of 35 sports and two demonstrations have also featured.
+        
+        <p>The proposal for cricket to apply for inclusion is part of a new strategy by the ICC for the sport to appear in more multi-sport Games as part of a drive to get it onto the Olympic programme, possibly at Los Angeles 2028.
+        
+        Cricket has appeared at the Asian Games twice, in Guangzhou in 2010 and Incheon four years later, and is due to be a medal sport at Hangzhou 2022.</p>
+        
+        A men’s tournament was also held at the 1998 Commonwealth Games in Kuala Lumpur and a women’s event has been included as part of the programme at Birmingham 2022.
+        
+        ESPNcricinfo reported that Ian Watmore, chairman of the England and Wales Cricket Board, is believed to be among those supporting the move and he will soon be appointed head of an ICC sub-committee set up to coordinate the Olympic campaign.
+        
+        <p>ICC associate members have been lobbying for the sport to try to get into the Olympics as in many countries it would help unlock Government funding and raise cricket’s profile.
+        
+        But there has been resistance from some full member nations, most notably India, who have expressed concern that the amount of time required for the Olympics would diminish the time available for bilateral series and money-spinning national T20 tournaments.
+        
+        There are a total of 21 countries in Africa that are part of the ICC, including Ghana, who are associate members.</p>
+        
+        Ghana’s most notable international performance was winning the Division Three of 2008 World Cricket League Africa Region by defeating Swaziland in the final.
+        
+        Africa’s strongest team is South Africa, whose men are ranked fifth in the world and women fourth.
+        
+        More than 5,000 athletes from over 50 countries are expected to compete at the 2023 African Games, which is expected to be held in Accra, Kumasi and Cape Coast.
+        
+        The dates for the event still have to be announced.</p>
+     
+  </div>
+<br>
+
+<br>
+<br>
+<br>
+
+
+        
+    </div>
+    
+    <br>
+<br>
+<br>
+    <script>
+      function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginRight = "250px";
+      }
+
+      function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginRight = "0";
+      }
+      let slideIndex = 0;
+  </script>
+    <footer>
+        <p>&copy; 2024 GHANA CRICKET ASSOCIATION</p>
+    </footer>
+
+
+</body>
+</html>
